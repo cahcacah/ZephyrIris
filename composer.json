@@ -1,0 +1,30 @@
+{
+    "name": "irenascent/zephyriris",
+    "description": "ZephyrIris - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zephyriris\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zephyriris\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "irenascent"
+        }
+    ]
+}
